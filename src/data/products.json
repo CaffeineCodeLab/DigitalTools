@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "ContentCraft AI",
+    "description": "Write blogs, emails, and ad copies in seconds using smart AI writing assistance.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited content generation", "30+ content types", "Plagiarism checker"],
+    "icon": "/assets/products/writing_2327400_1.png"
+  },
+  {
+    "id": 2,
+    "name": "DesignKit Pro",
+    "description": "Access thousands of ready-made design templates for any project or platform.",
+    "price": 45,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["1500+ templates", "Drag and drop editor", "Commercial license"],
+    "icon": "/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "PortfolioBuilder",
+    "description": "Create a stunning professional portfolio website without writing a single line of code.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["20+ portfolio themes", "Custom domain support", "SEO optimized"],
+    "icon": "/assets/products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "WorkFlow Automator",
+    "description": "Connect your favorite apps and automate boring repetitive tasks with ease.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ app integrations", "Visual workflow builder", "Scheduled triggers"],
+    "icon": "/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "SocialBoost Kit",
+    "description": "Plan, schedule, and analyze your social media posts all from one dashboard.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Multi-platform posting", "Analytics dashboard", "Content calendar"],
+    "icon": "/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "ShopLaunch Toolkit",
+    "description": "Everything you need to set up and grow your online store from scratch.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Store templates", "Payment gateway setup", "Inventory management"],
+    "icon": "/assets/products/shopping-cart.png"
+  }
+]
