@@ -12,7 +12,7 @@ function Stats() {
           <p className="text-purple-100 text-base">Active Users</p>
         </div>
 
-        {/* Divider */}
+        
         <div className="w-px h-16 bg-purple-300"></div>
 
         {/* Stat 2 */}
@@ -21,7 +21,7 @@ function Stats() {
           <p className="text-purple-100 text-base">Premium Tools</p>
         </div>
 
-        {/* Divider */}
+        
         <div className="w-px h-16 bg-purple-300"></div>
 
         {/* Stat 3 */}

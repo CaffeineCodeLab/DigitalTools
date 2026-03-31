@@ -41,10 +41,10 @@ function ProductCard({ product, onAddToCart, lastAddedId }) {
       {/* Icon */}
       <img src={iconSrc} alt={product.name} className="w-10 h-10 object-contain" />
 
-      {/* Name */}
+      
       <h3 className="text-lg font-bold text-gray-900">{product.name}</h3>
 
-      {/* Description */}
+      
       <p className="text-gray-500 text-sm">{product.description}</p>
 
       {/* Price */}
