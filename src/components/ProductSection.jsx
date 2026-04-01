@@ -15,9 +15,9 @@ function ProductSection({ cartItems, onAddToCart, onRemoveFromCart, onCheckout, 
 
       {/* Heading */}
       <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold text-gray-900 mb-3">Premium Digital Tools</h2>
+        <h2 className="text-5xl font-bold text-gray-900 mb-3">Premium Digital Tools</h2>
         <p className="text-gray-500 text-base">
-          Choose from our curated collection of premium digital products designed
+          Choose from our curated collection of premium digital products designed <br />
           to boost your productivity and creativity.
         </p>
       </div>

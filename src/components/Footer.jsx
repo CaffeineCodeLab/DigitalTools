@@ -7,8 +7,8 @@ function Footer() {
 
         {/* Left - Logo & Description */}
         <div className="max-w-[280px]">
-          <h2 className="text-white text-2xl font-bold mb-4">DigiTools</h2>
-          <p className="text-gray-400 text-sm leading-relaxed">
+          <h2 className="text-white text-3xl font-bold mb-4">DigiTools</h2>
+          <p className="text-white text-sm leading-relaxed">
             Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
           </p>
         </div>
@@ -16,28 +16,28 @@ function Footer() {
         {/* Product Links */}
         <div className="flex flex-col gap-3">
           <h4 className="text-white font-semibold mb-2">Product</h4>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Features</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Pricing</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Templates</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Integrations</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Features</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Pricing</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Templates</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Integrations</a>
         </div>
 
         {/* Company Links */}
         <div className="flex flex-col gap-3">
           <h4 className="text-white font-semibold mb-2">Company</h4>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">About</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Blog</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Careers</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Press</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">About</a>
+          <a className="text-white text-sm hover:text-purple-600  cursor-pointer">Blog</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Careers</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Press</a>
         </div>
 
         {/* Resources Links */}
         <div className="flex flex-col gap-3">
           <h4 className="text-white font-semibold mb-2">Resources</h4>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Documentation</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Help Center</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Community</a>
-          <a className="text-gray-400 text-sm hover:text-white cursor-pointer">Contact</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Documentation</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Help Center</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Community</a>
+          <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Contact</a>
         </div>
 
         {/* Social Links */}

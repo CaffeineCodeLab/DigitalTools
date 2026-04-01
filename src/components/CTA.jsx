@@ -6,12 +6,11 @@ function CTA() {
     >
 
       {/* Heading */}
-      <h2 className="text-4xl font-bold text-white">
+      <h2 className="text-5xl font-bold text-white">
         Ready To Transform Your Workflow?
       </h2>
 
-      {/* Description */}
-      <p className="text-purple-100 text-base leading-relaxed">
+      <p className="text-white text-base leading-relaxed">
         Join thousands of professionals who are already using Digitools to work smarter. <br />
         Start your free trial today.
       </p>
@@ -26,8 +25,8 @@ function CTA() {
         </button>
       </div>
 
-      {/* Fine print */}
-      <p className="text-purple-200 text-sm mt-1">
+
+      <p className="text-white text-sm mt-1">
         14-day free trial • No credit card required • Cancel anytime
       </p>
 
