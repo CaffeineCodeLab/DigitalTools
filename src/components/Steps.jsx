@@ -29,7 +29,8 @@ function Steps() {
         </div>
 
         {/* Step 2 */}
-        <div className="bg-white border border-purple-200 shadow-sm rounded-2xl p-8 flex flex-col items-center text-center relative w-[380px] h-[380px] justify-center">
+        <div className="bg-white border border-purple-200 shadow-sm rounded-2xl p-8 flex flex-col items-center text-center relative justify-center">
+
           <div className="absolute top-4 right-4 bg-purple-600 text-white text-xs w-8 h-8 rounded-full flex items-center justify-center font-bold">
             02
           </div>
@@ -41,7 +42,7 @@ function Steps() {
         </div>
 
         {/* Step 3 */}
-        <div className="bg-white border border-purple-200 shadow-sm rounded-2xl p-8 flex flex-col items-center text-center relative w-[380px] h-[380px] justify-center">
+        <div className="bg-white border border-purple-200 shadow-sm rounded-2xl p-8 flex flex-col items-center text-center relative justify-center">
           <div className="absolute top-4 right-4 bg-purple-600 text-white text-xs w-8 h-8 rounded-full flex items-center justify-center font-bold">
             03
           </div>

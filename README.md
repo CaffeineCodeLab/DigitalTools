@@ -1,16 +1,34 @@
-# React + Vite
+# 🛒 DigiTools - Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic marketplace built to help users find and purchase powerful tools, templates, and productivity solutions effortlessly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Technologies Used
 
-## React Compiler
+- **React.js** — Frontend UI library
+- **Tailwind CSS** — Utility-first CSS framework
+- **DaisyUI** — Tailwind CSS component library
+- **JavaScript (ES6+)** — Core programming language
+- **React-Toastify** — Toast notification package
+- **JSON** — Product data storage
+- **Vite** — Build tool and development server
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Premium Collection** — Browse high-quality digital products with comprehensive details
+- **Advanced Shopping Cart System** — Real-time updates with interactive notifications
+- **Fully Responsive Marketplace** — Optimized for mobile, tablet, and desktop users
+
+---
+
+## 🔧 How to Run Locally
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open `http://localhost:5173`
+
+---
