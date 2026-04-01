@@ -1,11 +1,10 @@
 function Footer() {
   return (
-    <div className="bg-gray-900 px-[200px] pt-[120px] pb-[30px]">
+    <div className="bg-gray-900 px-6 md:px-[200px] pt-[60px] md:pt-[120px] pb-[30px]">
 
-      {/* Top Section */}
-      <div className="flex justify-between gap-10 mb-10">
+      <div className="flex flex-col md:flex-row justify-between gap-10 mb-10">
 
-        {/* Left - Logo & Description */}
+        {/* Logo & Description */}
         <div className="max-w-[280px]">
           <h2 className="text-white text-3xl font-bold mb-4">DigiTools</h2>
           <p className="text-white text-sm leading-relaxed">
@@ -40,6 +39,8 @@ function Footer() {
           <a className="text-white text-sm hover:text-purple-600 cursor-pointer">Contact</a>
         </div>
 
+        
+        
         {/* Social Links */}
 <div className="flex flex-col gap-3">
   <h4 className="text-white font-semibold mb-2">Social Links</h4>
@@ -61,7 +62,7 @@ function Footer() {
       </svg>
     </div>
 
-    {/* X / Twitter */}
+    {/* Twitter */}
     <div className="bg-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-100 cursor-pointer transition-colors duration-200">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#111">
         <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.747l7.73-8.835L1.254 2.25H8.08l4.259 5.631 5.905-5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
@@ -73,7 +74,6 @@ function Footer() {
 
       </div>
 
-      {/* Divider */}
       <div className="border-t border-gray-700 mb-6"></div>
 
       {/* Bottom Section */}

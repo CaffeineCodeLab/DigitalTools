@@ -1,9 +1,6 @@
 function CTA() {
   return (
-    <div
-      className="w-full py-[120px] flex flex-col items-center justify-center text-center gap-6"
-      style={{ background: "linear-gradient(to right, #4F39F6, #9514FA)" }}
-    >
+    <div className="px-6 md:px-[200px] py-[60px] md:py-[120px] text-center flex flex-col items-center gap-8" style={{background: "linear-gradient(to bottom, #4F39F6, #9514FA)"}}>
 
       {/* Heading */}
       <h2 className="text-5xl font-bold text-white">
@@ -16,7 +13,7 @@ function CTA() {
       </p>
 
       {/* Buttons */}
-      <div className="flex items-center gap-4 mt-2">
+      <div className="flex items-center justify-center gap-4">
         <button className="bg-white text-purple-700 font-semibold px-7 py-3 rounded-full hover:bg-transparent hover:text-white hover:border-2 hover:border-white transition-colors duration-200">
   Explore Products
 </button>
@@ -26,7 +23,7 @@ function CTA() {
       </div>
 
 
-      <p className="text-white text-sm mt-1">
+      <p className="text-white text-sm">
         14-day free trial • No credit card required • Cancel anytime
       </p>
 

@@ -4,7 +4,7 @@ import rocketIcon from "../assets/rocket.png";
 
 function Steps() {
   return (
-    <div className="bg-gray-50 px-[200px] py-[120px]">
+    <div className="bg-gray-50 px-6 md:px-[200px] py-[60px] md:py-[120px]">
 
       {/* Heading */}
       <div className="text-center mb-12">
@@ -13,10 +13,11 @@ function Steps() {
       </div>
 
       {/* Steps Grid */}
-      <div className="grid grid-cols-3 gap-[30px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
 
         {/* Step 1 */}
-        <div className="bg-white border border-purple-200 shadow-sm rounded-2xl p-8 flex flex-col items-center text-center relative w-[380px] h-[380px] justify-center">
+        <div className="bg-white border border-purple-200 shadow-sm rounded-2xl p-8 flex flex-col items-center text-center relative justify-center">
+
           <div className="absolute top-4 right-4 bg-purple-600 text-white text-xs w-8 h-8 rounded-full flex items-center justify-center font-bold">
             01
           </div>

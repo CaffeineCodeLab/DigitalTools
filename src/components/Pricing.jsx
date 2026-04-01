@@ -1,6 +1,6 @@
 function Pricing() {
   return (
-    <div className="bg-white px-[200px] py-[120px]">
+    <div className="bg-white px-6 md:px-[200px] py-[60px] md:py-[120px]">
 
       {/* Heading */}
       <div className="text-center mb-12">
@@ -9,7 +9,7 @@ function Pricing() {
       </div>
 
       {/* Pricing Cards */}
-      <div className="grid grid-cols-3 gap-[30px]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
 
         {/* Starter */}
         <div className="bg-white border border-gray-200 rounded-2xl p-8 flex flex-col gap-4 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer">

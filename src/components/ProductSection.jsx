@@ -11,7 +11,7 @@ function ProductSection({ cartItems, onAddToCart, onRemoveFromCart, onCheckout, 
   }, 0);
 
   return (
-    <div className="bg-purple-50 px-[200px] py-[120px]">
+    <div className="bg-purple-50 px-6 md:px-[200px] py-[60px] md:py-[120px]">
 
       {/* Heading */}
       <div className="text-center mb-8">
@@ -44,7 +44,7 @@ function ProductSection({ cartItems, onAddToCart, onRemoveFromCart, onCheckout, 
 
       {/* Products Grid */}
       {activeTab === "products" && (
-        <div className="grid grid-cols-3 gap-[30px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px]">
           {productsData.map(function(product) {
             return (
               <ProductCard
